@@ -3,9 +3,20 @@ body {
   color: #70757a;
 }
 
+h1 {
+  font-size: 55px;
+  line-height: normal;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 14px;
+}
+
 ul {
   margin: 0 auto;
 }
+
 li {
   list-style: none;
 }
@@ -25,6 +36,22 @@ a {
   padding: 20px;
 }
 
+.temperature {
+  margin-bottom: 30px;
+}
+
+.units {
+  position: relative;
+  font-size: 20px;
+  top: -25px;
+}
+
 .location {
   margin-top: auto;
+  font-size: 30px;
+  line-height: 18px;
+}
+
+.date {
+  font-size: 13px;
 }
